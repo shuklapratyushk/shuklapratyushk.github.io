@@ -10,7 +10,7 @@ export default function App() {
           <img
             src={`${import.meta.env.BASE_URL}Shaving.jpg`}
             alt="Pratyush Shukla"
-            className="w-40 h-40 object-cover rounded-full transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-2xl"
+            className="w-75 h-75 object-cover rounded-full transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-2xl"
           />
         </div>
 
