@@ -8,9 +8,9 @@ export default function App() {
       <div className="flex flex-col md:flex-row items-center gap-10">
         <div className="-ml-10">
           <img
-            src="/Shaving.jpg"
+            src={`${import.meta.env.BASE_URL}Shaving.jpg`}
             alt="Pratyush Shukla"
-            className="w-55 h-55 rounded-full transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-2xl"
+            className="w-40 h-40 object-cover rounded-full transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-2xl"
           />
         </div>
 
