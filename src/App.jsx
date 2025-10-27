@@ -6,11 +6,11 @@ export default function App() {
     <div className="min-h-screen flex flex-col items-center justify-start bg-white px-6 pt-10">
       
       <div className="flex flex-col md:flex-row items-center gap-10">
-        <div className="-ml-10">
+        <div className="mx-auto md:ml-0">
           <img
-            src={`${import.meta.env.BASE_URL}Shaving.jpg`}
+            src={`${import.meta.env.BASE_URL}Myself.png`}
             alt="Pratyush Shukla"
-            className="w-75 h-75 object-cover rounded-full transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-2xl"
+            className="w-50 h-50 object-cover rounded-full transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-2xl"
           />
         </div>
 
@@ -27,7 +27,7 @@ export default function App() {
           <div className="text-lg text-gray-600 space-y-0">
             <h2 className="text-2xl font-semibold text-black mb-4 transition duration-300 hover:scale-105 hover:shadow-md cursor-pointer">
               <Typewriter
-                words={['I build stuff.']}
+                words={['I enjoy building.']}
                 cursor
                 cursorStyle="|"
                 typeSpeed={100}
@@ -42,10 +42,6 @@ export default function App() {
             <p className="transition duration-300 hover:scale-105 hover:shadow-sm cursor-pointer">
               Student @ Justin Wakeland High School
             </p>
-            <a className="underline" href="https://github.com/Pratprat1" target="_blank" rel="noopener noreferrer">
-              GitHub
-            </a>
-            <span> / </span>
             <a className="underline" href="https://www.instagram.com/pratyush.s1/" target="_blank" rel="noopener noreferrer">
               Instagram
             </a>
@@ -69,9 +65,9 @@ export default function App() {
           Relevant skills:
         </h4>
         <ul className="list-disc list-inside text-gray-600 text-base leading-relaxed">
-          <li>Languages: C++, Python JavaScript, SQL, R</li>
-          <li>Miscellaneous: FlutterFlow, TensorFlow, NumPy, MatPlotLib, DSA</li>
-          <li>User Interface Design</li>
+          <li>Languages: C++, Python, JavaScript, SQL, R</li>
+          <li>Further technical skills: FlutterFlow, TensorFlow, Pandas, NumPy, MatPlotLib, DSA</li>
+          <li>Miscellaneous: User interface design</li>
         </ul>
       </div>
 
