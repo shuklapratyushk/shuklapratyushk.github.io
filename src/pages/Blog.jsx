@@ -9,7 +9,7 @@ export default function Blog() {
       <SectionTitle
         overline="BLOG"
         title="Weekly Blogs"
-        subtitle="Newest at the top (20 entries). Edit content in src/data/blogs.js or link out to full docs."
+        subtitle="Newest at the top"
       />
 
       <div className="stack">

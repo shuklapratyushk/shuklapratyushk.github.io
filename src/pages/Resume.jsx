@@ -8,7 +8,7 @@ export default function Resume() {
     <div className="page">
       <SectionTitle
         overline="RESUME"
-        title="Résumé (PDF)"
+        title="RESUME (PDF)"
       />
 
       <Card title="Download">
@@ -20,12 +20,10 @@ export default function Resume() {
             Open in new tab
           </Button>
         </div>
-        <p className="muted small">
-          Put your PDF at <code>public/resume.pdf</code>. (This repo ships with a placeholder file.)
-        </p>
+
       </Card>
 
-      <Card title="On-page preview" subtitle="If you prefer, embed the PDF inline.">
+      <Card title="On-page preview">
         <div className="pdfFrame">
           <iframe title="Resume PDF" src="resume.pdf" />
         </div>
