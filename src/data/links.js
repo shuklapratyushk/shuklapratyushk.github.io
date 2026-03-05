@@ -43,6 +43,11 @@ export const researchAssessments = [
     "label": "Research Assessment 11",
     "href": "https://docs.google.com/document/d/1NrVse-VdBlBhQ9Ow2w2Zmr2iy0f-nChOveD4TidiwMk/edit?usp=sharing"
   }
+
+  {
+    "label": "Research Assessment 12",
+    "href": "https://docs.google.com/document/d/1NrVse-VdBlBhQ9Ow2w2Zmr2iy0f-nChOveD4TidiwMk/edit?usp=sharing"
+  }
 ];
 
 export const projectLinks = {
